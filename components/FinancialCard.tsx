@@ -26,7 +26,7 @@ export default function FinancialWellbeing() {
         <div className="mb-3">
           <div className="flex items-center justify-between mb-0.5">
             <span className="text-[18px] font-bold text-gray-900">{totalFranchisees}</span>
-            <div className="flex items-center bg-green-50 text-green-600 rounded-full px-1.5 py-0.5 text-[10px]">
+            <div className="flex items-center bg-green-50 text-green-800 rounded-full px-1.5 py-0.5 text-[10px]">
               <svg
                 width="10"
                 height="10"

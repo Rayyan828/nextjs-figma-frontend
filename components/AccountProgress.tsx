@@ -74,7 +74,7 @@ export default function AccountProgress() {
         <div className="space-y-1">
           {remainingSteps.map((step, i) => (
             <div key={i} className="flex justify-between items-center">
-              <span className="text-[12px] text-gray-500">{step.name}</span>
+              <span className="text-[12px] text-gray-700">{step.name}</span>
               <div className="w-4 h-4 rounded-full bg-white border border-gray-300" />
             </div>
           ))}

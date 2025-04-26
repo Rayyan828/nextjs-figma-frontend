@@ -28,7 +28,7 @@ export default function FranchiseesOnboard() {
       
       <div className="flex items-center mb-3">
         <span className="text-2xl font-bold mr-2">{totalFranchisees}</span>
-        <div className="bg-green-100 text-green-600 text-xs px-1.5 py-0.5 rounded-full font-medium flex items-center">
+        <div className="bg-green-100 text-green-800 text-xs px-1.5 py-0.5 rounded-full font-medium flex items-center">
           <svg className="w-3 h-3 mr-0.5" viewBox="0 0 12 12" fill="none">
             <path d="M6 2.5V9.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
             <path d="M2.5 6L6 2.5L9.5 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
@@ -48,7 +48,7 @@ export default function FranchiseesOnboard() {
               />
             </div>
           ))}
-          <div className="w-5 h-5 rounded-full bg-gray-100 border-2 border-white flex items-center justify-center text-[10px] text-gray-500">
+          <div className="w-5 h-5 rounded-full bg-gray-100 border-2 border-white flex items-center justify-center text-[10px] text-gray-700">
             +7
           </div>
         </div>
